@@ -3,7 +3,7 @@ import { describe, it, expect } from "vitest";
 import Home from "../../pages/Home";
 
 describe("a simple test coverage", () => {
-  it("should check for truthy", () => {
+  it("should check if truthy", () => {
     expect(1).toBeTruthy();
   });
 
