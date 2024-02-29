@@ -9,8 +9,8 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: './src/tests/setup.js',
-    //cypress
-    exclude: ['node_modules', 'build'],
+    // cypress
+    exclude: ['node_modules', 'build']
     // include: ['./src/tests/**/*.spec.js']
   }
 })

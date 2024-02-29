@@ -1,7 +1,5 @@
-
-
 const Header = () => {
-    const text = "Header section"
+  const text = 'Header section'
   return (
     <div>{text}</div>
   )
