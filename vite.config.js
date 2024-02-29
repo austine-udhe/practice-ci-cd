@@ -11,6 +11,6 @@ export default defineConfig({
     setupFiles: './src/tests/setup.js',
     //cypress
     exclude: ['node_modules', 'build'],
-    include: ['./src/tests/setup.js']
+    // include: ['./src/tests/**/*.spec.js']
   }
 })
